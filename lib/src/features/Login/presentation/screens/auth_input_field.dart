@@ -68,7 +68,7 @@ class _PhoneNumberVerificationState extends State<PhoneNumberVerification> {
           const SizedBox(width: 2),
           Flexible(
             child: TextFormField(
-              validator: (value) {
+              validator: (value) { 
                 if(value!.isEmpty){
                   errorLabel = 'Phone no';
                   setState(() {
